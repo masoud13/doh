@@ -1,4 +1,4 @@
-const debug = false
+const debug = true
 
 const loki = {
   enabled: false,
@@ -6,14 +6,14 @@ const loki = {
 }
 
 const endpoints = {
-  "/dns-query": {
+  "/ap2": {
     dohProviders: [
       {
         host: "dns11.quad9.net",
         path: "/dns-query",
       },
       {
-        main: true,
+        main: false,
         host: "cloudflare-dns.com",
         path: "/dns-query",
       },
