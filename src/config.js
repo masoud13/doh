@@ -6,7 +6,7 @@ const loki = {
 }
 
 const endpoints = {
-  "/my/doh/path": {
+  "ap2": {
     dohProviders: [
       {
         host: "dns11.quad9.net",
